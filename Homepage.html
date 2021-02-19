@@ -12,20 +12,20 @@
 <body id="homepage">
     <div class="navagation_bar">
         <div class="home">
-            <img src="icons/home_icon.svg" alt="home icon">
-            <a href="#home" class="active">Home</a>
+            <img src="icons/home_icon_active.svg" alt="home icon">
+            <p>Home</p>
         </div>
-        <div class="leaderboard">
+        <div class="leaderboard" onclick="location.href='Leaderboard.html';">
             <img src="icons/trophy_icon.svg" alt="trophy icon">
-            <a href="#news">Leaderboard</a>
+            <p>Leaderboard</p>
         </div>
         <div class="map">
             <img src="icons/map_icon.svg" alt="map icon">
-            <a href="#news">Map</a>
+            <p>Map</p>
         </div>
         <div class="quiz">
             <img src="icons/quiz_icon.svg" alt="quiz icon">
-            <a href="#news">Quiz</a>
+            <p>Quiz</p>
         </div>
       </div>
 
@@ -66,7 +66,7 @@
     <p id="daily_quiz_header">Daliy quiz</p>
     <div id="today_quiz_button_container">
         <a href="" class="today_quiz_button">Today's Quiz</a>
-        <div id="goto_comments">
+        <div id="goto_comments" onclick="location.href='Comment.html';">
             <p>Comments</p>
             <img class="arrow" src="icons/arrow.svg" alt="arrow">
         </div>

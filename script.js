@@ -2,6 +2,9 @@ function myFunction() {
     window.location.replace('Homepage.html');   
 }
 
+function myFunction() {
+    var myWindow = window.open("", "_self");
+
 /*const settings = {
 	"async": true,
 	"crossDomain": true,
