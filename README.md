@@ -10,13 +10,13 @@ https://xd.adobe.com/view/40478780-55c7-4489-88c9-40703abbb702-1514/?fullscreen
 
 ## Features
 
-Ability to create an account and log into it.
-Point system.
-Leaderboards system.
-Comment section.
-A shop and checkout function.
-Interative map.
-Quiz.
+- Ability to create an account and log into it
+- Point system
+- Leaderboards system
+- Comment section
+- A shop and checkout function
+- Interative map
+- Quiz
  
 ### Existing Features
 - The quiz feature allows users to get onto the leaderboards by doing the quiz 
