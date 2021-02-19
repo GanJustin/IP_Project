@@ -10,17 +10,31 @@
     
 </head>
 <body id="homepage">
+    <div class="navagation_bar">
+        <div class="home">
+            <img src="icons/home_icon.svg" alt="home_icon">
+            <a href="#home" class="active">Home</a>
+        </div>
+        <div>
+            <a href="#news">Leaderboard</a>
+        </div>
+        
+        <a href="#contact">Map</a>
+        <a href="#contact">Quiz</a>
+      </div>
+
     <div class="setting_gear">
         <a href=""><img src="icons/gear_icon.svg" alt="gear icon for settings"></a>
     </div>
-        <div id="points_container">
+    <div id="points_container">
+        <img src="icons/point_box.svg" alt="box for points">
         <p id="points">0</p>
     </div>
     <p id="news_search_api_title">Latest News</p>
     <div id="article_container">
         <article class="row-eq-height col-zero">
             <div>
-                <div id="crop">
+                <div class="crop">
                     <img class="covid-zero-img" src="icons/img_placeholder.jpg" alt="placeholder">
                 </div>
                 <div class="card-body">
@@ -32,7 +46,7 @@
         </article>
         <article class="row-eq-height col-one">
             <div>
-                <div id="crop">
+                <div class="crop">
                     <img class="covid-one-img" src="icons/img_placeholder.jpg" alt="placeholder">
                 </div>
                 <div class="card-body">
@@ -43,6 +57,19 @@
             </div>
         </article>
     </div>
+    <p id="daily_quiz_header">Daliy quiz</p>
+    <div id="today_quiz_button_container">
+        <a href="" class="today_quiz_button">Today's Quiz</a>
+        <div id="goto_comments">
+            <p>Comments</p>
+            <img class="arrow" src="icons/arrow.svg" alt="arrow">
+        </div>
+    </div>
+
+
+
+
+
     
     
     
