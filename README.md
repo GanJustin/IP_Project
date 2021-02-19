@@ -81,3 +81,7 @@ The idea of adding a public comment area came from other products(Reddit, Youtub
 
 Reward redeeming system from products like Starbucks Mobile app, &Rewards.
 
+### Github Page
+
+- https://ganjustin.github.io/IP_Project/
+
