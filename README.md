@@ -66,14 +66,14 @@ sign in shadow input - https://jsfiddle.net/chriscoyier/b75Yj/
 ### Media
 
 - Image Address:
-https://i.guim.co.uk/img/media/843b4d2dc4f73319eba6210d4d68509119b702c2/0_0_4096_2458/master/4096.jpg?width=620&quality=85&auto=format&fit=max&s=adbfbb41f5b50749f72609024e473493
-https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_600/https://www.edmaro.com.sg/wp-content/uploads/2018/04/BGTS066-Canvas-Tote-Bag.jpg
-https://cdn11.bigcommerce.com/s-ixwpuc55v/images/stencil/1280x1280/products/10362/16489/FaceMask_2__73130.1586960310.jpg?c=1
+- https://i.guim.co.uk/img/media/843b4d2dc4f73319eba6210d4d68509119b702c2/0_0_4096_2458/master/4096.jpg?width=620&quality=85&auto=format&fit=max&s=adbfbb41f5b50749f72609024e473493
+- https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_600/https://www.edmaro.com.sg/wp-content/uploads/2018/04/BGTS066-Canvas-Tote-Bag.jpg
+- https://cdn11.bigcommerce.com/s-ixwpuc55v/images/stencil/1280x1280/products/10362/16489/FaceMask_2__73130.1586960310.jpg?c=1
 
 - Websites taken from:
-https://www.theguardian.com/money/2019/dec/10/starbucks-gift-card-refused-franchise-stores
-https://www.edmaro.com.sg/product/bgts066-canvas-tote-bag/
-https://welcomehomeamerica.com/face-mask-3-ply-blue-box-of-50/
+- https://www.theguardian.com/money/2019/dec/10/starbucks-gift-card-refused-franchise-stores
+- https://www.edmaro.com.sg/product/bgts066-canvas-tote-bag/
+- https://welcomehomeamerica.com/face-mask-3-ply-blue-box-of-50/
 
 ### Acknowledgements
 
