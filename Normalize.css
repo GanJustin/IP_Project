@@ -802,3 +802,7 @@ p.comment{
 #leaderboard_page_top{
   padding-bottom: 100px;
 }
+
+#covid-map{
+  width: 100%;
+}

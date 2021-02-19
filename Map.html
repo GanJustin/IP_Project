@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>everything about covid leaderboard page</title>
+    <title>everything about covid map page</title>
     <link rel="stylesheet" href="Normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-   
+
 </head>
-<body id="leaderboardpage">
+<body>
     <div class="navagation_bar">
         <div class="home" onclick="location.href='Homepage.html';">
-            <img src="icons/home_icon.svg" alt="home icon">
+            <img src="icons/home_icon_active.svg" alt="home icon">
             <p>Home</p>
         </div>
-        <div class="leaderboard">
-            <img src="icons/trophy_icon_active.svg" alt="trophy icon">
+        <div class="leaderboard" onclick="location.href='Leaderboard.html';">
+            <img src="icons/trophy_icon.svg" alt="trophy icon">
             <p>Leaderboard</p>
         </div>
         <div class="map">
@@ -36,42 +36,8 @@
         <img src="icons/point_box.svg" alt="box for points">
         <p id="points">0</p>
     </div>
-    <p id=leaderboard_header>Leaderboard</p>
-    <div id="leaderboard_page_container">
-        <div id="shop_icon_container">
-            <img id="shop_icon" src="icons/shop_icon.svg" alt="shop icon">
-        </div>
-        <div id="leaderboard_page_top">
-            <div class="num_one">
-                <img id="crown_img" src="icons/crown_icon.svg" alt="crown">
-                <p class="username">username</p>
-                <p id="num_one_score">score : 0 / 10</p>
-                <p id="num_one_icon">1</p>
-            </div>
-
-
-            <div class="num_two">
-                <p class="username">username</p>
-                <p id="num_two_score">score : 0 / 10</p>
-                <p id="num_two_icon">2</p>
-            </div>
-
-
-            <div class="num_three">
-                <p class="username">username</p>
-                <p id="num_three_score">score : 0 / 10</p>
-                <p id="num_three_icon">3</p>
-            </div>
-        </div>
-
-        
-
-
-        <div class="leaderboard_page_bottom">
-            <div class="username">
-
-            </div>
-        </div>
+    <div id="covid-map">
+        <iframe src="https://infographics.channelnewsasia.com/covid-19/singapore-map.html"></iframe>
     </div>
 </body>
 </html>
