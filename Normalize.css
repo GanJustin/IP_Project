@@ -857,12 +857,12 @@ p.comment{
   border-radius: 100px;
 }
 
-#question_row{
+.question_row{
   display: flex;
 
 }
 
-#question_number{
+.question_number{
   font-size: 60px;
   margin-left: 35%;
 }
@@ -872,7 +872,7 @@ p.comment{
   margin-left: 30%;
 }
 
-#question{
+.question{
   font-size: 60px;
   padding-left: 50px;
   padding-right: 50px;
@@ -880,11 +880,11 @@ p.comment{
   padding-bottom: 100px;
 }
 
-#ans_container{
+.ans_container{
   margin: 50px;
 }
 
-#ans_one{
+.ans_one{
   background-color: #D64612;
   font-size: 200px;
   text-align: center;
@@ -896,7 +896,7 @@ p.comment{
 }
 
 
-#ans_two{
+.ans_two{
   background-color: #D64612;
   font-size: 200px;
   text-align: center;
@@ -904,4 +904,72 @@ p.comment{
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 100px;
+}
+
+/*ans css*/
+.ans_box{
+  background-color: #1E2B33;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 100px;
+  border-radius: 100px;
+  height: 2600px;
+}
+
+.correct_icon_box{
+  margin: 100px;
+}
+
+.ans_row{
+  display: flex;
+  justify-content: center;
+}
+
+.ans_number{
+  font-size: 120px;
+}
+
+.ans{
+  font-size: 70px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+div.click_anywhere{
+  margin-top: 450px;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*wrong css*/
+.wrong_box{
+  background-color: #1E2B33;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 100px;
+  border-radius: 100px;
+  height: 2600px;
+}
+
+.correct_icon_box{
+  margin: 100px;
+}
+
+.ans_row{
+  display: flex;
+  justify-content: center;
+}
+
+.wrong_number{
+  font-size: 110px;
+}
+
+.ans{
+  font-size: 70px;
+  margin-top: 50px;
+  margin-bottom: 200px;
 }
