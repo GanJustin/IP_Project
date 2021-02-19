@@ -32,15 +32,16 @@ To be implemented:
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
--HTML
+- HTML
 
--CSS
+- CSS
 
--Javascript
--[AdobeXD](https://www.adobe.com/)
-  -This project uses **AdobeXD** to aid in the creation of a low fidelity wireframing and a hi fidelity prototype.
+- Javascript
+
+- [AdobeXD](https://www.adobe.com/)
+  - This project uses **AdobeXD** to aid in the creation of a low fidelity wireframing and a hi fidelity prototype.
   
--[Adobe Illustrator](https://www.adobe.com/)
+- [Adobe Illustrator](https://www.adobe.com/)
   - This project uses **Adobe Illustrator** to aid in the making of the icons.
 
 ## Testing
