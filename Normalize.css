@@ -975,6 +975,40 @@ div.click_anywhere{
   margin-bottom: 200px;
 }
 
+/*quiz score*/
+.congrat_message{
+  margin-top: 200px;
+  margin-bottom: 200px;
+  font-size: 80px;
+}
+
+.score{
+  font-size: 200px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.goto_leaderboard{
+  background-color: #D64612;
+  font-size: 80px;
+  text-align: center;
+  border-radius: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.score_box{
+  background-color: #1E2B33;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 30%;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+  border-radius: 100px;
+}
+
 /*setting page css*/
 #settings_page{
   background-color: #7E0000;
@@ -1079,5 +1113,6 @@ div.click_anywhere{
   width: 100px;
   margin-left: 700px;
 }
+
 
 
