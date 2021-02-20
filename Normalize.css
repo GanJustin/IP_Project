@@ -359,7 +359,7 @@ template {
 
 #signin_page_container{
   margin-top: 30%;
-  margin-bottom: 45% ;
+  margin-bottom: 30% ;
 }
 
 #login-title{
@@ -385,21 +385,22 @@ template {
 }
 
 
-#username{
+.username{
   border-radius: 100px;
   font-size: 80px;
   height: 250px;
   border-width: 7px;
+  margin-bottom: 50px;
   
 }
 
-#username:focus {
+.username:focus {
     outline: 0;
     box-shadow: 0 0 50px #7E0000;
 }
 
 
-#password{
+.password{
   border-radius: 100px;
   font-size: 80px;
   height: 250px;
@@ -408,7 +409,7 @@ template {
 
 }
 
-#password:focus {
+.password:focus {
   outline: 0;
   box-shadow: 0 0 50px #7E0000;
 }
