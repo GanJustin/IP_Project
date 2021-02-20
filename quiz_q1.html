@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 </head>
-<body id="quiz_page">
+<body id="quiz_page_one">
     <div class="quiz_navagation_bar">
 
         <div id="question_page">
@@ -20,7 +20,7 @@
     </div>
 
     <div class="setting_gear">
-        <a href=""><img src="icons/gear_icon.svg" alt="gear icon for settings"></a>
+        <a href="settings.html"><img src="icons/gear_icon.svg" alt="gear icon for settings"></a>
     </div>
     <div id="points_container">
         <img src="icons/point_box.svg" alt="box for points">
@@ -40,13 +40,14 @@
         </div>
     </div>
     <div class="ans_container">
-        <div class="ans_one">
+        <div id="ans_one">
             <p>2 and 4</p>
         </div>
-        <div class="ans_two">
+        <div id="ans_two" onclick="location.href='quiz_q1_wrong.html';">
             <p>1 and 3</p>
         </div>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script3.js"></script>
 </body>
 </html>

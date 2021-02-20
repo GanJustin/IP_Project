@@ -823,6 +823,10 @@ p.comment{
   background-color: #7E0000;
 }
 
+#quiz_page_one{
+  background-color: #7E0000;
+}
+
 .left_arrow{
   width: 10%;
 }
@@ -874,7 +878,7 @@ p.comment{
 }
 
 .question{
-  font-size: 60px;
+  font-size: 80px;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 100px;
@@ -885,7 +889,7 @@ p.comment{
   margin: 50px;
 }
 
-.ans_one{
+#ans_one{
   background-color: #D64612;
   font-size: 200px;
   text-align: center;
@@ -897,7 +901,7 @@ p.comment{
 }
 
 
-.ans_two{
+#ans_two{
   background-color: #D64612;
   font-size: 200px;
   text-align: center;
@@ -908,7 +912,7 @@ p.comment{
 }
 
 /*ans css*/
-.ans_box{
+#ans_box{
   background-color: #1E2B33;
   margin-left: 80px;
   margin-right: 80px;

@@ -1,10 +1,10 @@
-function myFunction() {
-    window.location.replace('Homepage.html');   
+document.getElementById("quiz_page").addEventListener("click", function() {
+  alert("Hello World!");
+});
+
+function correct() {
+    location.replace("https://www.w3schools.com")/*'quiz_q1_correct.html'*/;
 }
-
-function myFunction() {
-    var myWindow = window.open("", "_self");
-
 /*const settings = {
 	"async": true,
 	"crossDomain": true,
