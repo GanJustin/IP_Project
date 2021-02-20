@@ -5,7 +5,7 @@ document.getElementById("quiz_page").addEventListener("click", function() {
 function correct() {
     location.replace("https://www.w3schools.com")/*'quiz_q1_correct.html'*/;
 }
-/*const settings = {
+const settings = {
 	"async": true,
 	"crossDomain": true,
     "url": "https://coronavirus-smartable.p.rapidapi.com/news/v1/SG/",
