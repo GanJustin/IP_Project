@@ -974,3 +974,110 @@ div.click_anywhere{
   margin-top: 50px;
   margin-bottom: 200px;
 }
+
+/*setting page css*/
+#settings_page{
+  background-color: #7E0000;
+}
+
+#settings_header_container{
+  display: flex;
+  font-size: 120px;
+  margin: 50px;
+}
+
+#setting_cross{
+  width: 80px;
+  margin-left: 800px;
+}
+
+#username_edit_container{
+  background-color: #1E2B33;
+  font-size: 150px;
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 280px;
+}
+
+#edit_icon{
+  width: 130px;
+  margin-left: 50px; 
+}
+
+#genearal_settings_header{
+  margin: 50px;
+  font-size: 80px;
+}
+
+#genearal_settings_header_container{
+  background-color: #1E2B33;
+  display: flex;
+  font-size: 90px;
+  padding-left: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#general_setting_switch{
+  margin-left: 230px;
+}
+
+#notifications_header{
+  margin: 50px;
+  font-size: 80px;
+}
+
+#notification_container{
+  background-color: #1E2B33;
+  display: flex;
+  font-size: 90px;
+  padding-left: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#notification_switch{
+  width: 250px;
+  margin-left: 450px;
+}
+
+#privacy_header{
+  margin: 50px;
+  font-size: 80px;
+}
+
+#privacy_container{
+  background-color: #1E2B33;
+  display: flex;
+  font-size: 90px;
+  padding-left: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#privacy_switch{
+  width: 250px;
+  margin-left: 300px;
+}
+
+#help_header{
+  margin: 50px;
+  font-size: 80px;
+}
+
+#help_container{
+  background-color: #1E2B33;
+  display: flex;
+  font-size: 90px;
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#help_switch{
+  width: 100px;
+  margin-left: 700px;
+}
+
+
