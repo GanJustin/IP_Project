@@ -1,7 +1,3 @@
-document.getElementById("quiz_page").addEventListener("click", function() {
-  alert("Hello World!");
-});
-
 function correct() {
     location.replace("https://www.w3schools.com")/*'quiz_q1_correct.html'*/;
 }
