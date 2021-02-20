@@ -588,7 +588,7 @@ padding-bottom: 100%;
   color: black;
 }
 
-.home{
+#home{
   display: flex;
   flex-direction: column;
   margin-right: 70px;
@@ -596,7 +596,7 @@ padding-bottom: 100%;
   text-align: center;
 }
 
-.home img{
+#home img{
   width: 80%;
   margin-left: 30px;
   margin-right: 30px;
@@ -872,7 +872,7 @@ p.comment{
   margin-left: 35%;
 }
 
-.quiz_cross{
+#quiz_cross{
   width: 5%;
   margin-left: 30%;
 }

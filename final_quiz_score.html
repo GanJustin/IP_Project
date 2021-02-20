@@ -12,7 +12,7 @@
 </head>
 <body id="quiz_page">
     <div class="navagation_bar">
-        <div class="home" onclick="location.href='Homepage.html';">
+        <div id="home" onclick="homeFunction()">
             <img src="icons/home_icon_active.svg" alt="home icon">
             <p>Home</p>
         </div>
@@ -24,7 +24,7 @@
             <img src="icons/map_icon.svg" alt="map icon">
             <p>Map</p>
         </div>
-        <div class="quiz">
+        <div class="quiz" onclick="quizFunction()">
             <img src="icons/quiz_icon.svg" alt="quiz icon">
             <p>Quiz</p>
         </div>
@@ -52,6 +52,12 @@
         </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function homeFunction() {
+            location.replace("Homepage.html")
+        }
 
+    </script>
 </body>
 </html>
